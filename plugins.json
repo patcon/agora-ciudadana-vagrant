@@ -1,0 +1,7 @@
+[
+  "vagrant-cachier",
+  "vagrant-chef-apply",
+  "vagrant-librarian-chef",
+  "vagrant-omnibus"
+]
+
