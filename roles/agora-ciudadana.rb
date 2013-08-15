@@ -1,16 +1,8 @@
 name "agora-ciudadana"
 run_list [
   "recipe[apt]",
+  "recipe[vim]",
   "recipe[git]",
-  "recipe[python]",
-  "recipe[platform_packages]",
   "recipe[rabbitmq]",
+  "recipe[agora-ciudadana]",
 ]
-default_attributes({
-  :platform_packages => {
-    :pkgs => [
-      { :name => "gettext" },
-      { :name => "virtualenvwrapper" },
-    ]
-  }
-})

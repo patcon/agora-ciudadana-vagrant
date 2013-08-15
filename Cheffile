@@ -5,6 +5,6 @@ site 'http://community.opscode.com/api/v1'
 
 cookbook 'apt'
 cookbook 'git'
-cookbook 'platform_packages'
-cookbook 'python'
 cookbook 'rabbitmq'
+cookbook 'vim'
+cookbook 'agora-ciudadana', path: 'cookbooks-source/agora-ciudadana'
